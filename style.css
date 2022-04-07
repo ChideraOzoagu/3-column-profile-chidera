@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color:  hsl(0, 0%, 95%);
+  font-size: 15px;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  padding: 50px 0;
+}
+.sedans {
+  padding: 80px;
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.suv {
+  padding: 60px;
+  background-color: hsl(184, 100%, 22%);
+}
+.luxury {
+  padding: 80px;
+  background-color: hsl(179, 100%, 13%);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.content {
+  padding: 40px 0;
+}
+.header {
+  color:hsl(0, 0%, 95%);
+  font-family: 'Big Shoulders Display';
+}
+.para {
+  line-height: 2.0;
+  padding: 20px 0;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Lexend Deca';
+}
+.orange {
+  padding: 12px 25px;
+  border-radius: 25px;
+  background-color:  hsl(0, 0%, 95%);
+  color:hsl(31, 77%, 52%);
+  font-family: 'Lexend Deca';
+}
+.blue {
+  padding: 12px 25px;
+  border-radius: 25px;
+  background-color:  hsl(0, 0%, 95%);
+  color:hsl(184, 100%, 22%);
+  font-family: 'Lexend Deca' arial;
+}
+.cyan {
+  padding: 12px 25px;
+  border-radius: 25px;
+  background-color:  hsl(0, 0%, 95%);
+  color:hsl(179, 100%, 13%);
+  font-family: 'Lexend Deca';
+}
+@media screen and (min-width: 600px) {
+  .main-container {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+    overflow: hidden;
+  }
+  .sedans {
+    padding: 30px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+  }
+  .suv {
+    padding: 30px;
+  }
+  .luxury {
+    padding: 30px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 10px;
+  }
+  .orange:hover {
+    background-color:hsl(31, 77%, 52%);
+    color:hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+  }
+  .blue:hover {
+    background-color:hsl(184, 100%, 22%);
+    color:hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+  }
+  .cyan:hover {
+    background-color:hsl(179, 100%, 13%);
+    color:hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+  }
+
+
+}
+
